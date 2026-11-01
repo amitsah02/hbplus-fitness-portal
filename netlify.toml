@@ -1,0 +1,7 @@
+[build]
+  command = "npx expo export --platform web"
+  publish = "dist"
+
+[build.environment]
+  # Expo SDK 58 requires Node 22.13 or newer.
+  NODE_VERSION = "22"

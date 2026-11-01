@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "hbplus-auth",
+    "slug": "hbplus-auth",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "hbplus",
+    "ios": {
+      "bundleIdentifier": "com.hbplus.auth"
+    },
+    "android": {
+      "package": "com.hbplus.auth"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-web-browser"
+    ],
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "ec88fdb7-67bb-48a8-b6a8-7f321c875937"
+      }
+    }
+  }
+}
